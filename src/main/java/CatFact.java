@@ -53,10 +53,6 @@ public class CatFact {
     }
 
     CatFact() {
-        this.id = null;
-        this.text = null;
-        this.type = null;
-        this.upvotes = null;
     }
 
     @Override
