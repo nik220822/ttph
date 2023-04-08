@@ -1,9 +1,9 @@
 public class CatFact {
-    String id;
-    String text;
-    String type;
-    String user;
-    Integer upvotes;
+    private String id;
+    private String text;
+    private String type;
+    private String user;
+    private Integer upvotes;
 
     public String getId() {
         return id;
@@ -53,10 +53,6 @@ public class CatFact {
     }
 
     CatFact() {
-        this.id = null;
-        this.text = null;
-        this.type = null;
-        this.upvotes = null;
     }
 
     @Override
